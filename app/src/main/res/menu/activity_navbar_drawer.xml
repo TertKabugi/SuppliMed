@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/nav_mpesa"
+            android:icon="@drawable/ic_mpesa"
+            android:title="Mpesa" />
+        <item
+            android:id="@+id/nav_dial"
+            android:icon="@drawable/ic_dialpad"
+            android:title="Dail" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call"
+            android:title="Call" />
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_email"
+            android:title="Mail" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
